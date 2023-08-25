@@ -41,6 +41,7 @@ public class GuessingGame extends JFrame {
 					lblGuessCount.setText("It took you only " + guessCount + " tries. Good job!");
 				else
 					lblGuessCount.setText("It took you " + guessCount + " tries. Can you do better?");
+				txtGuess.setText(null);
 				txtGuess.setEditable(false);
 				btnGuess.setVisible(false);
 				btnPlayAgain.setVisible(true);
