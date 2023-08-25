@@ -5,6 +5,7 @@ import javax.swing.JLabel;
 import java.awt.Font;
 import javax.swing.SwingConstants;
 import java.awt.Color;
+import java.awt.Dimension;
 import javax.swing.JTextField;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
@@ -89,6 +90,9 @@ public class GuessingGame extends JFrame {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		GuessingGame theGame = new GuessingGame();
+		theGame.newGame();
+		theGame.setSize(new Dimension(500, 400));
+		theGame.setVisible(true);
 	}
 }
